@@ -1,0 +1,25 @@
+{
+  "name": "aligner-salt",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Salt support for aligner",
+  "keywords": [
+    "aligner",
+    "alignment",
+    "align",
+    "salt"
+  ],
+  "repository": "https://github.com/adrianlee44/atom-aligner-salt",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "dependencies": {},
+  "providedServices": {
+    "aligner.provider": {
+      "versions": {
+        "1.0.0": "getProvider"
+      }
+    }
+  }
+}
